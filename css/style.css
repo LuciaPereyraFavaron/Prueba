@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0,5;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+  background-color: #b81414;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1px;
+}
+
+.menu .navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 0 20px;
+    color: #fafbfd;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.menu .navbar a:hover {
+    color: #6b1212;
+    text-decoration: underline;
+}
+
+body {
+    font-weight: normal;
+    font-family: Figtree, sans-serif;
+    background-color: beige;
+}
+
+main {
+    width: 1440px;
+    height: 1420px;
+}
+
+section {
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #b81414;
+    text-decoration: none;
+}
+
+
+h1 {
+    color: #b81414;
+    font-weight: bold;
+    font-family: Figtree, sans-serif;
+}
+
+
+ul{
+    list-style: inside;
+}
+
+ol{
+    line-height: 150%;
+
+}
+
+
+h4 {
+   color: #b81414;
+   font-weight: normal;
+   font-family: Figtree, sans-serif;
+}
+
+h3 {
+   color: #b81414;
+   font-weight: bold;
+   font-family: Figtree, sans-serif;
+}
+
+
+footer {
+    height: 100px;
+    background-color: #b81414;
+    color: #fafbfd;
+    text-align: center;
+}
+
